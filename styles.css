@@ -1,0 +1,21 @@
+body {
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#upload-edited-transcription-form #transcription-result {
+  resize: none;
+  width: 40rem;
+  height: 18rem;
+  padding: 1rem;
+  font-weight: 600;
+  outline: none;
+  line-height: 1.8;
+
+  @media (max-width: 720px) {
+    width: 90%;
+  }
+}
